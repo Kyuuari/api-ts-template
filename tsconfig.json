@@ -7,7 +7,6 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "build",
-    "rootDir": "src/",
     "allowSyntheticDefaultImports": true,
 
     /* Bundler mode */
@@ -22,8 +21,11 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "types": ["vitest/globals"]
   },
-  "include": ["src/**/*", "./*.js", "src/**/*.ts", "test/**/*.ts"],
+
+  "include": ["src/**/*", "./*.js", "src/**/*.ts", "src/tests", "src"],
   "exclude": ["node_modules"]
 }
