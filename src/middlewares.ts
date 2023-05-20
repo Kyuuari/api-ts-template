@@ -7,17 +7,16 @@ export function notFound(req: Request, res: Response, next: NextFunction) {
   next(error);
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function errorHandler(
-  err: Error,
+  _err: Error,
   _req: Request,
   res: Response<ErrorResponse>,
   _next: NextFunction
 ) {
   const statusCode = res.statusCode !== 200 ? res.statusCode : 500;
-  res.status(statusCode);
-  res.json({
-    message: err.message,
-    stack: process.env.NODE_ENV === "production" ? "🥞" : err.stack,
-  });
+  res.status(statusCode).json({ message: "Internal Server Error" });
+  // res.status(statusCode).json({
+  //   message: err.message,
+  //   stack: process.env.NODE_ENV === "production" ? "🥞" : err.stack,
+  // });
 }
