@@ -8,12 +8,16 @@ configured to use:
 
 * Express
 * Vitest
-* Typescript with ESM
+* Typescript
+* Unit Tests
+* SuperTest
+
 
 Template comes with example routes that can be deleted and modified anytime
 
 
 ## Features
 * Barebones 
-* Customizability
-* Test Ready - Vitest - Unit Tests - SuperTest
+* Customizable
+* Test Ready
+* ESM Support
