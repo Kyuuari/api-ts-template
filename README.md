@@ -9,8 +9,7 @@ configured to use:
 * Express
 * Vitest
 * Typescript
-* Unit Tests
-* SuperTest
+
 
 
 Template comes with example routes that can be deleted and modified anytime
@@ -20,4 +19,6 @@ Template comes with example routes that can be deleted and modified anytime
 * Barebones 
 * Customizable
 * Test Ready
+  * Vitest for unit testing
+  * SuperTest for API endpoint testing
 * ESM Support
