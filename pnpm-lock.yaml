@@ -8,8 +8,8 @@ dependencies:
     specifier: ^2.8.5
     version: 2.8.5
   dotenv:
-    specifier: ^16.0.3
-    version: 16.0.3
+    specifier: ^16.3.0
+    version: 16.3.0
   express:
     specifier: ^4.18.2
     version: 4.18.2
@@ -805,8 +805,8 @@ packages:
     engines: {node: '>=0.3.1'}
     dev: true
 
-  /dotenv@16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+  /dotenv@16.3.0:
+    resolution: {integrity: sha512-tHB+hmf8MRCkT3VVivGiG8kq9HiGTmQ3FzOKgztfpJQH1IWuZTOvKSJmHNnQPowecAmkCJhLrxdPhOr06LLqIQ==}
     engines: {node: '>=12'}
     dev: false
 
