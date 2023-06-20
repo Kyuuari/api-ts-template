@@ -1,0 +1,16 @@
+# Exclude development-related files and directories
+node_modules/
+npm-debug.log
+
+*.env
+
+# Exclude build artifacts
+dist/
+build/
+
+# Exclude sensitive information
+secrets/
+
+# Exclude editor configuration files
+.vscode/
+.idea/
