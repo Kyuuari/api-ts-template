@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^2.0.13
     version: 2.0.13
   '@vitest/ui':
-    specifier: ^0.34.5
-    version: 0.34.5(vitest@0.34.6)
+    specifier: ^0.34.6
+    version: 0.34.6(vitest@0.34.6)
   nodemon:
     specifier: ^3.0.1
     version: 3.0.1
@@ -60,7 +60,7 @@ devDependencies:
     version: 5.2.2
   vitest:
     specifier: ^0.34.6
-    version: 0.34.6(@vitest/ui@0.34.5)
+    version: 0.34.6(@vitest/ui@0.34.6)
 
 packages:
 
@@ -471,27 +471,19 @@ packages:
       tinyspy: 2.1.1
     dev: true
 
-  /@vitest/ui@0.34.5(vitest@0.34.6):
-    resolution: {integrity: sha512-nK3Ny7fQgoTJMCGXLzYL0oo1ePtruRM9eYT1Y8esQx8fHj05davqVgqWv4Kd+Yy8PfzyrduTx1EYBdSMIbQh8A==}
+  /@vitest/ui@0.34.6(vitest@0.34.6):
+    resolution: {integrity: sha512-/fxnCwGC0Txmr3tF3BwAbo3v6U2SkBTGR9UB8zo0Ztlx0BTOXHucE0gDHY7SjwEktCOHatiGmli9kZD6gYSoWQ==}
     peerDependencies:
       vitest: '>=0.30.1 <1'
     dependencies:
-      '@vitest/utils': 0.34.5
+      '@vitest/utils': 0.34.6
       fast-glob: 3.3.0
       fflate: 0.8.0
       flatted: 3.2.7
       pathe: 1.1.1
       picocolors: 1.0.0
       sirv: 2.0.3
-      vitest: 0.34.6(@vitest/ui@0.34.5)
-    dev: true
-
-  /@vitest/utils@0.34.5:
-    resolution: {integrity: sha512-ur6CmmYQoeHMwmGb0v+qwkwN3yopZuZyf4xt1DBBSGBed8Hf9Gmbm/5dEWqgpLPdRx6Av6jcWXrjcKfkTzg/pw==}
-    dependencies:
-      diff-sequences: 29.4.3
-      loupe: 2.3.6
-      pretty-format: 29.6.1
+      vitest: 0.34.6(@vitest/ui@0.34.6)
     dev: true
 
   /@vitest/utils@0.34.6:
@@ -1745,7 +1737,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.34.6(@vitest/ui@0.34.5):
+  /vitest@0.34.6(@vitest/ui@0.34.6):
     resolution: {integrity: sha512-+5CALsOvbNKnS+ZHMXtuUC7nL8/7F1F2DnHGjSsszX8zCjWSSviphCb/NuS9Nzf4Q03KyyDRBAXhF/8lffME4Q==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -1783,7 +1775,7 @@ packages:
       '@vitest/runner': 0.34.6
       '@vitest/snapshot': 0.34.6
       '@vitest/spy': 0.34.6
-      '@vitest/ui': 0.34.5(vitest@0.34.6)
+      '@vitest/ui': 0.34.6(vitest@0.34.6)
       '@vitest/utils': 0.34.6
       acorn: 8.10.0
       acorn-walk: 8.2.0
