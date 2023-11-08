@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^4.17.21
     version: 4.17.21
   '@types/morgan':
-    specifier: ^1.9.8
-    version: 1.9.8
+    specifier: ^1.9.9
+    version: 1.9.9
   '@types/node':
     specifier: ^20.9.0
     version: 20.9.0
@@ -396,8 +396,8 @@ packages:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
     dev: true
 
-  /@types/morgan@1.9.8:
-    resolution: {integrity: sha512-IS65B0+LgfdI61N6pn634vGc3ePn7ttt1iCiEKVk22DpGHMVpMZ7rbUxbjyOSqXI7zYi/nUGrZRD+PpvGlamnA==}
+  /@types/morgan@1.9.9:
+    resolution: {integrity: sha512-iRYSDKVaC6FkGSpEVVIvrRGw0DfJMiQzIn3qr2G5B3C//AWkulhXgaBd7tS9/J79GWSYMTHGs7PfI5b3Y8m+RQ==}
     dependencies:
       '@types/node': 20.9.0
     dev: true
